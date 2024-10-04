@@ -36,13 +36,10 @@ for (let j = 0; j < estados.length; j++) {
     console.log(estados[j]);
     
 }
-let idade=16;
+let idade = parseInt (prompt('Qual a sua idade?'));
 if(idade>17){
 console.log('Pode dirigir')
 }
 else {
 console.log('Ilegal dirigir')
-}
-if('Qual a sua idade?'){
-    console.log('16')
 }
