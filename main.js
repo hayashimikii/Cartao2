@@ -14,7 +14,7 @@
  let num1 = parseInt (prompt('Qual n?'));
  let num2 = parseInt (prompt('Qual n?'));
  let num3 = parseInt (prompt('Qual n?'));
- function media (x,y,z){
+ let media = function (x,y,z){
      return (x+y+z)/3;
  };
  document.write(media(num1, num2, num3));
