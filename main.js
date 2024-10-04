@@ -31,3 +31,8 @@ console.log(i);
 console.log(estados[i]);
 i++;
 }
+for (let j = 0; j < estados.length; j++) {
+    console.log(j);
+    console.log(estados[j]);
+    
+}
