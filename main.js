@@ -11,10 +11,10 @@
      return (num1+num2+num3)/3;
  }
  console.log (media(1,2,3));
- let num1 = parsent (prompt('Qual n?'));
- let num2 = parsent (prompt('Qual n?'));
- let num3 = parsent (prompt('Qual n?'));
+ let num1 = parseInt (prompt('Qual n?'));
+ let num2 = parseInt (prompt('Qual n?'));
+ let num3 = parseInt (prompt('Qual n?'));
  function media (x,y,z){
-     return (x+y+z)/3,
+     return (x+y+z)/3;
  };
  document.write(media(num1, num2, num3));
